@@ -1,45 +1,97 @@
-# Hack4Shell
-> A Capture-The-Flag Platform for ethical hackers and cybersecurity enthusiast.
+# Hack4Shell CTF
 
-HACK4SHELL CTF is a free, solo, online, Jeopardy-style cybersecurity competition hosted in an authorized, vulnerable-by-design environment. The event is designed to be beginner-friendly while still offering challenges for more experienced players. The leaderboard is already active, and participants are competing for the top positions. 
+> **Learn. Hack. Solve. Repeat.**
+>
+> A free, online Capture The Flag (CTF) platform for ethical hackers, cybersecurity enthusiasts, and security researchers.
 
-<img width="1910" height="882" alt="index-page" src="https://github.com/user-attachments/assets/8c6479b7-5f6a-4a78-9b31-80cffc6fd651" />
+**Hack4Shell CTF 2026** is a solo, Jeopardy-style cybersecurity competition featuring hands-on challenges in an authorized, intentionally vulnerable environment. Whether you're exploring cybersecurity for the first time or sharpening your penetration testing and security research skills, Hack4Shell offers challenges designed to encourage practical learning, critical thinking, and problem-solving.
 
-## Top Scorers
+Explore security vulnerabilities, investigate digital evidence, solve cryptographic puzzles, analyze binaries, and uncover hidden information through OSINT. Earn points by solving challenges, track your progress on the live leaderboard, and learn from community-contributed writeups.
 
-Link: https://hack4shell-ctf.vercel.app/scoreboard
+**Platform:** https://hack4shell-ctf.vercel.app
 
-<img width="995" height="562" alt="top-scorers" src="https://github.com/user-attachments/assets/e39bdd0a-e73e-4aca-a539-661525e91500" />
+---
 
+## Platform Preview
 
-## Challenge Overview
+<img width="1910" height="882" alt="Hack4Shell CTF homepage" src="https://github.com/user-attachments/assets/8c6479b7-5f6a-4a78-9b31-80cffc6fd651" />
 
-<img width="1615" height="535" alt="challenges-overview" src="https://github.com/user-attachments/assets/baeb9299-0c94-4086-ad44-a2e9a6a0ccb9" />
+## Live Scoreboard
 
-There are six categories of challenges with three level difficulties (Easy/Medium/Hard). 
+Compete with other players, earn points by solving challenges, and climb the leaderboard. Every successful submission brings you closer to the top.
 
-Link: https://hack4shell-ctf.vercel.app/challenges
+**View the scoreboard:** https://hack4shell-ctf.vercel.app/scoreboard
 
-1. **Web exploitation**: SQLi, XSS, SSRF, and IDOR
-2. **Cryptography**: RSA and hashing
-3. **Reverse engineering**: Ghidra, GDB, and x64dbg
-4. **Binary exploitation**: buffer overflows, heap, and ASLR concepts
-5. **Forensics**: memory analysis, PCAPs, Steganography and disk images
-6. **Reconnaissance & OSINT**: metadata and social-footprint analysis
+<img width="1250" height="825" alt="Hack4Shell CTF scoreboard showing top scorers" src="https://github.com/user-attachments/assets/e08b6700-85e5-4b71-af27-11676f2b3d34" />
 
-## Writeups Overview
+---
 
-There is a dedicated page for uploading writeups for the Hack4Shell CTF 2026 challenges. Many CTF players and Security researchers posted writeups for the challenges.
+## Challenge Categories
 
-Link: https://hack4shell-ctf.vercel.app/writeups
+Hack4Shell features six cybersecurity challenge categories with three difficulty levels: **Easy, Medium, and Hard**.
 
-<img width="1353" height="812" alt="challenge-writeups" src="https://github.com/user-attachments/assets/2ebf17f2-f392-4e52-a65f-7aee921c9c69" />
+**Explore challenges:** https://hack4shell-ctf.vercel.app/challenges
 
-## Event Pages
+<img width="1312" height="712" alt="image" src="https://github.com/user-attachments/assets/f4a2b434-641a-43d2-bc04-9437e45540fd" />
 
-For event questions and updates:
+| Category | What You'll Explore |
+|---|---|
+| **Web Exploitation** | SQL injection (SQLi), cross-site scripting (XSS), server-side request forgery (SSRF), insecure direct object references (IDOR), and web application security |
+| **Forensics** | Memory analysis, packet captures (PCAPs), steganography, and disk image investigations |
+| **Cryptography** | Encryption, RSA, hashing, encoding, and cryptographic puzzles |
+| **Reconnaissance & OSINT** | Metadata analysis, digital footprints, open-source intelligence, and online investigations |
+| **Reverse Engineering** | Binary analysis, program behavior, debugging, and tools such as Ghidra, GDB, and x64dbg |
+| **Binary Exploitation** | Buffer overflows, memory corruption, heap concepts, and address space layout randomization (ASLR) |
 
-- Event website: https://hack4shell-ctf.vercel.app
-- Discord: https://discord.gg/hHFx8TfxFp
-- Instagram: https://instagram.com/hack4sh3ll
-- Medium: https://medium.com/@CyberX7u/list/hack4shell-ctf-writeups-dd9f02f3f350
+Challenges emphasize practical investigation and problem-solving, helping participants strengthen their cybersecurity skills through hands-on experience.
+
+---
+
+## Community Writeups
+
+Learning doesn't stop after capturing a flag.
+
+Hack4Shell provides a dedicated writeup page where CTF participants and security researchers can share their approaches, document solutions, and explain the techniques used to solve challenges.
+
+Explore community writeups to discover alternative approaches, understand unfamiliar concepts, and improve your methodology for future CTF competitions.
+
+**Read and contribute writeups:** https://hack4shell-ctf.vercel.app/writeups
+
+<img width="1338" height="821" alt="image" src="https://github.com/user-attachments/assets/5ca6e8b4-8e7c-4462-8333-77ef68c72bca" />
+
+---
+
+## Getting Started
+
+1. Visit the [Hack4Shell CTF platform](https://hack4shell-ctf.vercel.app).
+2. Create an account or log in using the available registration options.
+3. Browse the [challenge list](https://hack4shell-ctf.vercel.app/challenges).
+4. Choose a challenge that matches your skill level.
+5. Investigate the challenge and submit the correct flag to earn points.
+6. Track your ranking on the [live scoreboard](https://hack4shell-ctf.vercel.app/scoreboard).
+7. Share your solutions and learn from other participants through the [writeup page](https://hack4shell-ctf.vercel.app/writeups).
+
+---
+
+## Community and Updates
+
+Stay connected with Hack4Shell for platform updates, challenge discussions, cybersecurity content, and community contributions.
+
+- **Website:** https://hack4shell-ctf.vercel.app
+- **Discord:** https://discord.gg/hHFx8TfxFp
+- **Instagram:** https://instagram.com/hack4sh3ll
+- **Medium:** https://medium.com/@CyberX7u/list/hack4shell-ctf-writeups-dd9f02f3f350
+
+---
+
+## Our Mission
+
+Hack4Shell aims to make hands-on cybersecurity learning more accessible by providing a platform where aspiring ethical hackers and experienced security enthusiasts can test their skills, explore security concepts, and learn through practical challenges.
+
+We believe that solving problems, sharing knowledge, and learning from real-world security concepts are essential parts of becoming a better security researcher.
+
+**Learn cybersecurity by doing. Challenge yourself with Hack4Shell CTF.**
+
+---
+
+*Hack4Shell CTF is intended for educational purposes and authorized security testing. All challenge exploitation should remain within the designated challenge environment.*
