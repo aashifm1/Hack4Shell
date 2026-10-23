@@ -89,7 +89,8 @@ Date: Sun, 09 Sep 1987 00:00:00 GMT
 
 With both headers spoofed, the Cabin login page became accessible. Logging in with `cabin-user:cabin1987` returned the flag.
 
-<img width="950" height="500" alt="Flag captured" src="https://github.com/user-attachments/assets/6a3f0d28-32a6-4720-a1a5-c44ac12e6d1e" />
+<img width="1262" height="752" alt="whoami-really" src="https://github.com/user-attachments/assets/b8151243-91b7-489e-b0a3-ae748bc658e9" />
+
 
 This confirmed **Vulnerability #2: Client-controlled header trust (`User-Agent` / `Date` used as an access-control mechanism)**, which is trivially bypassed since both headers are fully attacker-controlled.
 
