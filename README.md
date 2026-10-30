@@ -14,7 +14,7 @@ Explore security vulnerabilities, investigate digital evidence, solve cryptograp
 
 ## Platform Preview
 
-<img width="1910" height="882" alt="Hack4Shell CTF homepage" src="https://github.com/user-attachments/assets/8c6479b7-5f6a-4a78-9b31-80cffc6fd651" />
+<img width="1000" height="550" alt="home" src="https://github.com/user-attachments/assets/c2c8f81c-0e65-41ff-882e-f5fba73c9afa" />
 
 ## Live Scoreboard
 
@@ -26,13 +26,22 @@ Compete with other players, earn points by solving challenges, and climb the lea
 
 ---
 
+## Events
+
+Hack4Shell enables events for hosting timed CTF - register, compete, event scoreboard.
+
+**Explore events:** https://hack4shell-ctf.vercel.app/events
+
+<img width="1275" height="410" alt="events" src="https://github.com/user-attachments/assets/b0ad40aa-3db2-4b1f-bcc1-3257528db389" />
+
+
+---
+
 ## Challenge Categories
 
 Hack4Shell features six cybersecurity challenge categories with three difficulty levels: **Easy, Medium, and Hard**.
 
 **Explore challenges:** https://hack4shell-ctf.vercel.app/challenges
-
-<img width="1312" height="712" alt="image" src="https://github.com/user-attachments/assets/f4a2b434-641a-43d2-bc04-9437e45540fd" />
 
 | Category | What You'll Explore |
 |---|---|
