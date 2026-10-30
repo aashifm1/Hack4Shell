@@ -8,7 +8,7 @@
 
 ## Challenge Description
 
-<img src="images/challenge.png" alt="Hack4Shell Challenge Description" width="800">
+<img src="images/challenge.png" alt="Hack4Shell Challenge Description " width="800">
 
 There was a login page with no signup option and no credentials given to log in. "Forgot password" and "Sign in with SSO" were present but non-functional (dead links/no backend action).
 
