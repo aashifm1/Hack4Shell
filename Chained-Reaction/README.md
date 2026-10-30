@@ -8,6 +8,9 @@
 
 ## Challenge Description
 
+<img width="650" height="400" alt="challenge" src="https://github.com/user-attachments/assets/8164c96d-a303-43e5-8163-849a3794fdb9" />
+
+
 
 There was a login page with no signup option and no credentials given to log in. "Forgot password" and "Sign in with SSO" were present but non-functional (dead links/no backend action).
 
