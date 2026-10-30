@@ -8,7 +8,12 @@
 
 ## Challenge Description
 
+<img src="images/challenge.png" alt="Hack4Shell Challenge Description" width="800">
+
 There was a login page with no signup option and no credentials given to log in. "Forgot password" and "Sign in with SSO" were present but non-functional (dead links/no backend action).
+
+<img src="images/login-page.png" alt="Hack4Shell Challenge Login Page" width="800">
+
 
 ## Recon
 
@@ -35,6 +40,9 @@ SELECT * FROM users WHERE username = '<input>' AND password = '<input>'
 
 and the injected `OR 1=1'--` short-circuited the WHERE clause, returning the first row in the table (guest) and commenting out the rest of the query, including the password check.
 
+<img src="images/post-sqli.png" alt="Hack4Shell Login Bypass via SQLi" width="800">
+
+
 At this point I checked the hint provided for the challenge, which nudged toward inspecting the session token — suggesting the privilege escalation was meant to happen *after* authentication, not during it.
 
 ## Step 2: JWT Analysis and Manipulation
@@ -42,6 +50,9 @@ At this point I checked the hint provided for the challenge, which nudged toward
 Inspected the session cookie/token issued after login — it was a JWT. Decoded it using [jwt.io](https://jwt.io).
 
 ### Findings
+
+<img src="images/cookie-tampering.png" alt="Hack4Shell Cookie Analysis" width="500">
+
 
 The payload contained two attacker-controllable-looking claims:
 
@@ -53,6 +64,9 @@ The payload contained two attacker-controllable-looking claims:
 ```
 
 The header specified `alg: HS256`, but there was no indication the signature was actually being verified server-side with a secret the way it should have been. So the next move was to simply tamper with the claims and see if the server trusted them without re-validating the signature.
+
+<img src="images/jwt-analysis.png" alt="JWT analysis" width="700">
+
 
 ### Changes Made
 
@@ -66,6 +80,9 @@ The header specified `alg: HS256`, but there was no indication the signature was
 
 Re-encoded the token (using the `none`/unverified approach, since no valid secret was known) and swapped it into the session cookie.
 
+<img src="images/after-privilege-escalation.png" alt="CTF Challenge Privilege Escalation">
+
+
 ## Step 3: Privileged Request
 
 With the tampered JWT set, I requested the operator-only endpoint that was previously returning `401/403`:
@@ -75,6 +92,9 @@ GET /api/operator/flag
 ```
 
 **Response:** `200 OK` — the endpoint returned the flag.
+
+<img src="images/redacted-flag.png" alt="Hack4Shell Challenge Flag">
+
 
 ## Root Cause
 
